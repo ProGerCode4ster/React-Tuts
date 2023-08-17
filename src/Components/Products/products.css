@@ -1,0 +1,19 @@
+.Product_banner_text{
+    top: 130px;
+    color: aliceblue;
+    text-align: end;
+    margin-right: 2%;
+  }
+  
+  .Product_banner_image{
+    height: 3px;
+    margin-top: 1px;
+    margin-bottom: 0%;
+  }
+  
+  .Product_banner_image img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    z-index: -1;
+  }

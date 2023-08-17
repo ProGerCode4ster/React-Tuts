@@ -1,0 +1,45 @@
+.backend_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+   
+}
+.backend_content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    row-gap: 2rem; 
+    margin-top: 1rem;
+  
+}
+.backend_details{
+    display:flex;
+    gap: .5rem;
+    margin-left: 30%;
+}
+
+.backend_icon{
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border-radius: 2rem;
+   width: 100px;
+   height: 40px;
+}
+   
+.colorback{
+    padding-bottom: 20%;
+    background-color: #F6F6F6;
+}
+.backendtext{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.backendicon2{
+ margin-left: 10%;
+}
+
+.enghtext{
+    
+  
+}

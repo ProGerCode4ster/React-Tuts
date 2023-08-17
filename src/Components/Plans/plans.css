@@ -1,0 +1,58 @@
+.planstext{
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.plans_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: .5rem;
+    padding: 10%;
+}
+
+.plans_container>div{
+  padding: .4rem 2rem ;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+
+}
+
+.plans_container>div h3{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plans_content{
+  row-gap:2rem ;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-top: 2rem;
+}
+
+.plans_details{
+  display: flex;
+  gap: 1rem;
+  color: white;
+  
+}
+.Plans_birthday{
+  color: #4C0000;
+  background-color:#D7ADAD ;
+}
+.plans_weddings{
+  color: 
+  #870CA2;
+  background-color: 
+  #E4D6E8;
+
+}
+.plans_Berial{
+  color: orange;
+  background-color: 
+  #EEE3D5;
+}
+
+.color{
+  background-color: #F6F6F6;
+  padding: 10%;
+}

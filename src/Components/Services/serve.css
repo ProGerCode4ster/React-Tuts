@@ -1,0 +1,64 @@
+.services_text{
+ text-decoration: underline;
+ text-align: center;
+ 
+}
+
+.services_content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    row-gap: 2rem; 
+    margin-top: 1rem;
+   
+}
+
+.services_details_icon{
+    
+    margin-top: 16px;
+    color: white;
+    padding: 30%;
+    border: 15px solid ;
+    background-color: black;
+
+}
+
+.service_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    margin-top: 6px;
+
+}
+
+.services_details{
+    display: inline-block;
+    gap: 1rem;
+    color: aqua;
+    border-radius: 2rem;
+    border: thick solid 2px;
+ 
+}
+
+.service_container>div{
+    color: brown;
+ 
+ 
+}
+
+.service_container>div h4{
+    text-align: center;
+    margin-bottom: .5rem;
+    color:black ;
+    
+}
+.Website_Development{
+   
+    margin-left: 20%;
+}
+.Mobileapp_dev{
+    margin-left: 30%;
+   
+}
+.Blockchain{
+    margin-left: 40%;
+}
+

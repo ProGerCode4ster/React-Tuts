@@ -1,0 +1,33 @@
+.Footer_Container{
+    padding-top: 10%;
+    background-color: cyan;
+    margin-top: 25%;
+  }
+  
+  .Footer_Text{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    
+  }
+  
+  .Footer_icon{
+    color: red;
+  }
+
+  .footer_details{
+    text-align: center;
+    margin-top: 0%;
+    position: relative;
+    bottom: 150px;
+  }
+
+  .footer_icon{
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border-radius: 2rem;
+   
+  }
+
+  

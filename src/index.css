@@ -1,6 +1,7 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +12,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+  section{
+    margin-top: 8rem;
+  }
+
+  section >h2,
+  section >h5{
+    text-align: center;
+    color: var(--color-light);
+    text-decoration: underline;
+  }
+
+  section >h2{
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+  }
+
+img{
+  display: flex;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.banner_text{
+  margin-bottom: 10%;
+  top: 130px;
+  margin-left: 5%;
+  color: aliceblue;
+  
+}
+
+.banner_image{
+  height: 3px;
+  margin-top: 1px;
+  margin-bottom: 0%;
+}
+
+.banner_image img{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.navbar{
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navbar a {
+  margin-left:16px ;
+  text-decoration: none;
+  padding:6px;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: lightgreen;
+}
+
+.navbar .contact{
+  margin-left: auto;
+}
+
+.about_container{
+  display: flex;
+  align-items:flex-start;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.about_event{
+
+  top: 300px;
+  max-width: 50%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+.about-image{
+  margin-left: auto;
+  top: 350px;
+  max-width: 40%;
+}
+
+
+
+

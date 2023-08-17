@@ -1,0 +1,19 @@
+.Aboutus_banner_text{
+  margin-bottom: 10%;
+    top: 130px; 
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .Aboutus_banner_image{
+    height: 3px;
+    margin-top: 1px;
+    margin-bottom: 0%;
+  }
+  
+  .Aboutus_banner_image img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    z-index: -1;
+  }

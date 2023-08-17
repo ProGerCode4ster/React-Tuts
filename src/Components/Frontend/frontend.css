@@ -1,0 +1,39 @@
+.Frontend_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.Frontend_container>div{
+    display: grid;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+}
+.frontend_content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    row-gap: 2rem; 
+    margin-top: 1rem;
+}
+.frontend_details{
+    display:flex;
+    gap: .5rem;
+    margin-left: 30%;
+}
+
+.frontend_icon{
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border-radius: 2rem;
+}
+
+.frontend_R{
+
+}
+
+
+.frontendtext{
+    text-align: center;
+    text-decoration: underline;
+}
+
